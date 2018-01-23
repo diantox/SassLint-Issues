@@ -1,0 +1,17 @@
+// This should violate
+//   - clean-import-paths:leading-underscore
+//   - clean-import-paths:filename-extension
+// but it only violates
+//   - clean-import-paths:leading-underscore
+@import 'file';
+
+// This should violate
+//   - clean-import-paths:filename-extension
+// but it doesn't violate anything.
+@import '_file';
+
+//   - clean-import-paths:leading-underscore
+//   - clean-import-paths:filename-extension
+// should be applied, but only
+//   - clean-import-paths:leading-underscore
+// is applied.

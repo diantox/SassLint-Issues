@@ -8,3 +8,7 @@ rules:
     - allow-leading-underscore: false
     - convention: ^[a-zA-Z0-9]+(_[a-zA-Z0-9]+)*$
     - convention-explanation: "Omae wa mou shindeiru"
+  clean-import-paths:
+    - 1
+    - leading-underscore: true
+    - filename-extension: true
