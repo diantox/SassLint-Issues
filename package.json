@@ -1,0 +1,13 @@
+{
+  "name": "sasslint-issues",
+  "version": "0.0.0",
+  "description": "A Sass Lint issues project.",
+  "keywords": [
+    "Sass Lint",
+    "issues"
+  ],
+  "homepage": "https://github.com/M1ras/SassLint-Issues",
+  "bugs": "https://github.com/M1ras/SassLint-Issues/issues",
+  "repository": "github:M1ras/SassLint-Issues",
+  "author": "Miras Absar <miras@miras.io> (https://miras.io)"
+}
