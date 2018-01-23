@@ -1,0 +1,22 @@
+// This should violate
+//   - class-name-format:allow-leading-underscore
+//   - class-name-format:convention
+// but it only violates
+//   - class-name-format:allow-leading-underscore
+._my-class {
+  display: none;
+}
+
+// This should violate
+//   - class-name-format:convention
+// but it doesn't violate anything.
+.my-class {
+  display: none;
+}
+
+//   - class-name-format:allow-leading-underscore
+//   - class-name-format:convention
+//   - class-name-format:convention-explanation
+// should be applied, but only
+//   - class-name-format:allow-leading-underscore
+// is applied.

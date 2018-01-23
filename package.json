@@ -10,6 +10,9 @@
   "bugs": "https://github.com/M1ras/SassLint-Issues/issues",
   "repository": "github:M1ras/SassLint-Issues",
   "author": "Miras Absar <miras@miras.io> (https://miras.io)",
+  "scripts": {
+    "styles:lint": "sass-lint -qvc config/sass-lint.yaml"
+  },
   "devDependencies": {
     "sass-lint": "^1.4.0"
   }

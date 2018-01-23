@@ -1,0 +1,10 @@
+options:
+  formatter: stylish
+files:
+  include: "src/**/*.s@(a|c)ss"
+rules:
+  class-name-format:
+    - 1
+    - allow-leading-underscore: false
+    - convention: ^[a-zA-Z0-9]+(_[a-zA-Z0-9]+)*$
+    - convention-explanation: "Omae wa mou shindeiru"
