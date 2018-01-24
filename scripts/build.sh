@@ -28,3 +28,6 @@ for VERSION in "${SASS_LINT_VERSIONS[@]}"; do
   npm install --no-save sass-lint@"${VERSION}"
   node_modules/.bin/sass-lint -qvc config/sass-lint.yaml > ./build/sass-lint@"${VERSION}"
 done
+
+npm install --no-save github:M1ras/sass-lint#rules strip-ansi
+node_modules/.bin/sass-lint -qvc config/sass-lint.yaml > ./build/sass-lint@OmaewWaMouShindeiru
